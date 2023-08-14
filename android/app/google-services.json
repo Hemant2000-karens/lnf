@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "346495301774",
+    "firebase_url": "https://lostfoundiiitdmj0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lostfoundiiitdmj0",
+    "storage_bucket": "lostfoundiiitdmj0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346495301774:android:bd104d41915a5f424171df",
+        "android_client_info": {
+          "package_name": "com.iiitdmj.lf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346495301774-3a9bfv3vhb0uc9b7m16ojlcurnsq4qdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB7QrDLYkRl4ighpscuupFkx5U_8WRRYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346495301774-3a9bfv3vhb0uc9b7m16ojlcurnsq4qdk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "346495301774-1shkko7cee2fhnbrbvntnvr0qb3v1jef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iiitdmj.lnf.lnf.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346495301774:android:9eb3e52d29e996644171df",
+        "android_client_info": {
+          "package_name": "com.iiitdmj.lnf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346495301774-3a9bfv3vhb0uc9b7m16ojlcurnsq4qdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB7QrDLYkRl4ighpscuupFkx5U_8WRRYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346495301774-3a9bfv3vhb0uc9b7m16ojlcurnsq4qdk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "346495301774-1shkko7cee2fhnbrbvntnvr0qb3v1jef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iiitdmj.lnf.lnf.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
