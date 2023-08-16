@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    tools:context=".MainActivity">
+
+    <!-- Center the ImageView vertically and horizontally -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/splashImage" /> <!-- Replace with your image resource -->
+
+    <!-- Place the "Lost & Found" text below the image -->
+    <TextView
+        android:id="@+id/textViewLostFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/lost_found"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Place the "IIITDM Jabalpur" text at the bottom -->
+    <TextView
+        android:id="@+id/textViewIIITDM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/iiitdm_jabalpur"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+</RelativeLayout>

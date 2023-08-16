@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="todo">TODO</string>
+    <string name="lost_found"><![CDATA[Lost & Found]]></string>
+    <string name="iiitdm_jabalpur">IIITDM Jabalpur</string>
 </resources>
