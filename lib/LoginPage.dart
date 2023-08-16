@@ -55,7 +55,9 @@ class _LoginPageState extends State<LoginPage> {
         password: password,
       );
       final user = userCredential.user;
-      print('User signed in: ${user.email}');
+      if (user != null) {
+        print('User signed in: ${user.email}');
+      }
     } catch (e) {
       print('Error: $e');
       // Handle login error here
